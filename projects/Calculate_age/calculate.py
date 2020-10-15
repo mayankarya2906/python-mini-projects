@@ -49,3 +49,20 @@ for m in range(1, localtime.tm_mon):
 day = day + localtime.tm_mday
 print("%s's age is %d years or " % (name, year), end="")
 print("%d months or %d days" % (month, day))
+# Program make a simple calculator
+
+# This function adds two numbers
+def add(x, y):
+    return x + y
+
+# This function subtracts two numbers
+def subtract(x, y):
+    return x - y
+
+# This function multiplies two numbers
+def multiply(x, y):
+    return x * y
+
+# This function divides two numbers
+def divide(x, y):
+    return x / y
